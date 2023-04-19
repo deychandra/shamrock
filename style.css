@@ -1,0 +1,1147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+}
+
+header .top-header {
+    background-color: #096aa4;
+}
+
+header .topheader-wrap .right a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+}
+
+header .top-header .topheader-wrap .right a span {
+    margin-left: 7px;
+}
+
+header .top-header .topheader-wrap .right a .cl {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    background-color: #105d8b;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+header .top-header .topheader-wrap .right a .cl:hover {
+    color: #32aa38;
+    background-color: #fff;
+}
+
+header .top-header .topheader-wrap .right a .cl i {
+    font-size: 12px;
+}
+
+header .top-header .topheader-wrap .left {
+    font-size: 15px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+}
+
+header .top-header .topheader-wrap .left ul {
+    list-style: none;
+    margin: 0;
+    margin-left: 8px;
+}
+
+header .top-header .topheader-wrap .left ul li {
+    display: inline-block;
+}
+
+header .top-header .topheader-wrap .left ul li {
+    margin-right: 8px;
+}
+
+header .top-header .topheader-wrap .left ul li:last-child {
+    margin-right: 0px;
+}
+
+header .top-header .topheader-wrap .left ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+header .top-header .topheader-wrap .left ul li a:hover {
+    color: #32aa38;
+}
+
+header .top-header .topheader-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .bottom-header .navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+    line-height: 32px;
+    color: #151515;
+    font-weight: 400;
+    font-family: "Sora";
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+header .bottom-header .navbar-light .navbar-nav .nav-link:hover {
+    color: #32aa38;
+}
+
+header .bottom-header .btn-outline-success {
+    width: 139px;
+    height: 49px;
+    border-radius: 8px;
+    background-color: #32aa38;
+    font-size: 15px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+    outline: 0;
+    box-shadow: none;
+}
+
+
+/* =============BANNER========== */
+#hero {
+    padding: 61px 0 108px 0;
+
+}
+
+#hero .hero-left .main-h {
+    font-size: 55px;
+    line-height: 70px;
+    color: #01121c;
+    font-weight: 500;
+    font-family: "Sora";
+    margin-bottom: 50px;
+}
+
+#hero .hero-left .title {
+    font-size: 17px;
+    line-height: 30px;
+    color: #01121c;
+    font-weight: 400;
+    font-family: "Sora";
+    max-width: 90%;
+}
+
+.join-btn {
+    width: 139px;
+    height: 49px;
+    border-radius: 8px;
+    background-color: #096aa4;
+    font-size: 15px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.join-btn:hover {
+    background-color: #32aa38;
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero .hero-right {
+    position: relative;
+}
+
+#hero .hero-right .bnr-img {
+    padding: 13px 13px 0 13px;
+}
+
+#hero .hero-right .bg-reg_one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#hero .hero-right .bg-reg_two {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#hero .hero-right .bg-reg_three {
+    position: absolute;
+    bottom: 0;
+    left: 13px;
+    z-index: 1;
+}
+
+/* ================we-guarantee=========== */
+#we-guarantee {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #e8f6ff;
+}
+
+#we-guarantee .we-guarantee_title {
+    font-size: 55px;
+    line-height: 70px;
+    color: #01121c;
+    font-weight: 500;
+    font-family: "Sora";
+    display: table;
+    margin: auto;
+    margin-bottom: 64px;
+}
+
+#we-guarantee .we-left_text h5 {
+    font-size: 26px;
+    color: #01121c;
+    font-weight: 500;
+    font-family: "Sora";
+    margin-top: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#we-guarantee .we-left_text p {
+    margin: 0;
+    font-size: 16px;
+    color: #01121c;
+    font-weight: 400;
+    font-family: "Sora";
+    margin: 0;
+    text-align: center;
+}
+
+#we-guarantee .we-guarantee-left .overlay {
+    height: 582px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#we-guarantee .we-guarantee-left .overlay img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 0.5s ease-in-out;
+
+}
+
+#we-guarantee .we-guarantee-left .overlay:hover img {
+    transform: scale(1.1);
+}
+
+#we-guarantee .we-guarantee-right {
+    padding-top: 20px;
+}
+
+#we-guarantee .we-guarantee-right ul {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+#we-guarantee .we-guarantee-right ul li {
+    padding-left: 40px;
+    font-size: 20px;
+    line-height: 47px;
+    color: #01121c;
+    font-weight: 400;
+    font-family: "Sora";
+    position: relative;
+}
+
+#we-guarantee .we-guarantee-right .list-line_h {
+    line-height: 30px;
+}
+
+#we-guarantee .we-guarantee-right ul li:before {
+    content: '';
+    position: absolute;
+    background: url(img/done.png)no-repeat 00/contain;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.guarantee-btn {
+    width: 262px;
+    height: 66px;
+    border-radius: 8px;
+    background-color: #096aa4;
+    font-size: 21px;
+    line-height: 70px;
+    color: #f7f7f7;
+    font-weight: 400;
+    font-family: "Sora";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.guarantee-btn:hover {
+    background-color: #32aa38;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*========================== primary-care==================== */
+
+#primary-care {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+#primary-care .title {
+    font-size: 55px;
+    line-height: 70px;
+    color: #01121c;
+    font-weight: 500;
+    font-family: "Sora";
+    text-align: center;
+}
+
+#primary-care .carecontent-img {
+    width: 100%;
+    height: 300px;
+}
+
+#primary-care .carecontent-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+#primary-care .carecontent-text h4 {
+    font-size: 30px;
+    line-height: 70px;
+    color: #01121c;
+    font-weight: 500;
+    font-family: "Sora";
+    text-align: center;
+    margin: 0;
+}
+
+#primary-care .carecontent-text ul {
+    list-style: none;
+}
+
+#primary-care .carecontent-text ul li {
+    position: relative;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 37px;
+    color: #01121c;
+    font-weight: 400;
+    font-family: "Sora";
+}
+
+#primary-care .carecontent-text ul li:before {
+    content: '';
+    background: url(img/done.png)no-repeat 00/contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.list-center {
+    display: table;
+    margin: auto;
+}
+
+.height100 {
+    height: 100px;
+}
+
+/* <---================prescription===================---> */
+#prescription {
+    padding: 100px 0;
+    background-image: url('img/prescription-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#prescription .pres-text {
+    font-size: 55px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Sora";
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+#prescription .stethoscope p {
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Sora";
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#prescription .stethoscope a {
+    width: 258px;
+    height: 68px;
+    border-radius: 8px;
+    background-color: #32aa38;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+#prescription .stethoscope .care-btn {
+    width: 350px;
+    height: 68px;
+    border-radius: 8px;
+    background-color: #096aa4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+    text-align: center;
+}
+
+#prescription .stethoscope .stethoscope-img {
+    height: 102px;
+    width: 94px;
+    margin: auto;
+}
+
+/* <-=====================how-it-works==============-----> */
+#how-it-works {
+    padding: 100px 0;
+}
+
+#how-it-works .title {
+    font-size: 55px;
+    line-height: 70px;
+    color: #01121c;
+    font-weight: 500;
+    font-family: "Sora";
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+#how-it-works .sub-title {
+    font-size: 16px;
+    line-height: 70px;
+    color: #01121c;
+    font-weight: 400;
+    font-family: "Sora";
+    text-align: center;
+}
+
+#how-it-works .works-box-wrap {
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #096aa4;
+    padding: 46px 30px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+#how-it-works .works-box-wrap:hover {
+    transform: translateY(10px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#how-it-works .works-box-wrap h6 {
+    font-size: 40px;
+    line-height: 70px;
+    color: #01121c;
+    font-weight: 600;
+    font-family: "Sora";
+    text-align: center;
+}
+
+#how-it-works .works-box-wrap h3 {
+    font-size: 23px;
+    line-height: 70px;
+    color: #01121c;
+    font-weight: 500;
+    font-family: "Sora";
+    text-align: center;
+}
+
+#how-it-works .works-box-wrap img {
+    display: table;
+    margin: auto;
+}
+
+#how-it-works .works-box-wrap p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #01121c;
+    font-weight: 400;
+    font-family: "Sora";
+    text-align: center;
+}
+
+#how-it-works .learn-more {
+    width: 200px;
+    height: 66px;
+    border-radius: 8px;
+    background-color: #096aa4;
+    background-color: #096aa4;
+    font-size: 21px;
+    line-height: 70px;
+    color: #f7f7f7;
+    font-weight: 400;
+    font-family: "Sora";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/* <------------=================clients=================-----> */
+.clients {
+    background-color: #e8f6ff;
+    padding: 70px 0;
+}
+
+.clients .title {
+    font-size: 55px;
+    line-height: 65px;
+    color: #01121c;
+    font-weight: 500;
+    font-family: "Sora";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.clients .slid {
+    background: #fff;
+    padding: 20px 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.clients .slid:hover {
+    background: #096aa4;
+    color: #fff;
+}
+
+.clients .slid:hover .slid-2 {
+    color: #fff;
+}
+
+.clients .slid .slid-2 {
+
+    font-size: 17px;
+    line-height: 27px;
+    color: #3b3b3b;
+    font-weight: 400;
+    font-family: "Sora";
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.clients .slid img {
+    display: table;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.clients .slid strong {
+    display: block;
+    text-align: center;
+}
+
+/* <---------=============contat-us===================----------> */
+#contat-us {
+    padding: 100px 0;
+}
+
+#contat-us .contact-frm_lft {
+    padding: 60px 15px;
+    border-radius: 15px;
+    background-color: #096aa4;
+}
+
+#contat-us .contact-frm_lft h6 {
+    font-size: 27px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+
+#contat-us .contact-frm_lft p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+    text-align: left;
+}
+
+#contat-us .contact-frm_lft .frm-social-top {
+    list-style: none;
+}
+
+#contat-us .contact-frm_lft .frm-social-top li {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+    margin-bottom: 10px;
+    display: block;
+}
+
+#contat-us .contact-frm_lft .frm-social-top li .icon {
+    padding-right: 10px;
+}
+
+#contat-us .contact-frm_lft .frm-social-top li:last-child {
+    position: relative;
+    padding-left: 28px;
+}
+
+#contat-us .contact-frm_lft .frm-social-top li:last-child::before {
+    content: '\f3c5';
+    position: absolute;
+    font-family: FontAwesome;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+}
+
+#contat-us .contact-frm_lft .loaction {
+    width: 100%;
+    height: 197px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#contat-us .contact-frm_lft .loaction iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#contat-us .contact-frm_lft .frm-social {
+    list-style: none;
+    margin: 20px 0 0 0;
+}
+
+#contat-us .contact-frm_lft .frm-social li {
+    display: inline-block;
+}
+
+#contat-us .contact-frm_lft .frm-social a {
+    background: #fff;
+    color: #096aa4;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+#contat-us .contact-frm_lft .frm-social a:hover {
+    color: #32aa38;
+}
+
+#contat-us .contact-frm_right {
+    padding: 40px 40px;
+}
+
+#contat-us .contact-frm_right h2 {
+    font-size: 40px;
+    line-height: 25px;
+    color: #202020;
+    font-weight: 400;
+    font-family: "Sora";
+}
+
+#contat-us form .hei-37 {
+    height: 20px;
+    width: 100%;
+}
+
+#contat-us form label {
+    display: block;
+    opacity: 0.800;
+    font-size: 16px;
+    line-height: 45px;
+    color: #425466;
+    font-weight: 400;
+    font-family: "Sora";
+    margin: 0;
+}
+
+#contat-us form input {
+    width: 100%;
+    height: 56px;
+    background-color: #f8f8f8;
+    padding: 0 10px;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+#contat-us form textarea {
+    width: 100%;
+    height: 100px;
+    background-color: #f8f8f8;
+    padding: 10px 10px;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    resize: none;
+}
+
+#contat-us form button {
+    width: 100%;
+    border: none;
+    height: 69px;
+    border-radius: 8px;
+    background-color: #32aa38;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 74px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+}
+
+/* <---------=============footer===================----------> */
+footer {
+    background-color: #013b5d;
+    padding: 80px 0 20px 0;
+}
+
+.footer-logo img {
+    width: 200px;
+}
+
+.footer-logo p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Sora";
+    margin-top: 20px;
+}
+
+footer .listitem h2 {
+    font-size: 21px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Sora";
+}
+
+footer .listitem ul {
+    list-style: none;
+}
+
+footer .listitem li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Sora";
+}
+
+footer .listitem-end li span {
+    margin-right: 10px;
+    color: #32aa38;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+footer .copy-right {
+    opacity: 0.502;
+    border-top: 1px solid #ffffff;
+    padding: 60px 0 0px 0;
+}
+
+footer .copy-right p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Sora";
+    text-align: center;
+}
+
+footer .copy-right p a {
+    margin: 0;
+    font-size: 14px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Sora";
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: #096aa4;
+  }
+
+
+
+
+
+
+
+
+
+/* ==============media screen breckpoint================== */
+@media only screen and (max-width: 1245px) {
+    #hero .hero-left .main-h {
+        font-size: 52px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    #hero .hero-left .main-h {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #we-guarantee .we-guarantee-right ul li {
+        font-size: 16px;
+    }
+
+    #prescription .pres-text {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+
+    #prescription {
+        padding: 70px 0;
+    }
+    #how-it-works{
+        padding: 70px 0;
+    }
+    #how-it-works .title{
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    #how-it-works .works-box-wrap h3{
+        line-height: 30px;
+        padding: 10px 0 0 0;
+    }
+    .clients .title{
+        font-size: 48px;
+        line-height: 57px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    footer .container {
+        min-width: 1200px;
+    }
+
+    footer .copy-right {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    #hero .hero-left {
+        margin-bottom: 20px;
+    }
+
+    #hero .hero-left .main-h {
+        margin-bottom: 10px;
+    }
+
+    .COUSTOM {
+        flex-direction: column-reverse;
+    }
+
+    #hero {
+        padding: 10px 0 0 0;
+    }
+
+    #hero .hero-right {
+        margin-bottom: 30px;
+    }
+
+    #hero .hero-right .bnr-img img {
+        width: 100%;
+    }
+
+    #we-guarantee .we-guarantee_title {
+        font-size: 53px;
+    }
+
+    #we-guarantee {
+        padding: 50px 0;
+    }
+
+    #primary-care .carecontent-text h4 {
+        font-size: 22px;
+    }
+
+    .height100 {
+        height: 0px;
+    }
+
+    #primary-care {
+        padding: 20px 0;
+    }
+
+    #primary-care .carecontent-img {
+        height: 145px;
+    }
+
+    #primary-care .carecontent-text ul li {
+        padding-left: 28px;
+        font-size: 13px;
+    }
+
+    #primary-care .carecontent-text h4 {
+        margin-top: 14px;
+        line-height: 45px;
+    }
+
+    #contat-us .row .col-lg-4 {
+        margin-left: 0;
+    }
+
+    #prescription .stethoscope p {
+        font-size: 26px;
+        line-height: 29px;
+        padding-bottom: 20px;
+    }
+
+    #prescription .stethoscope {
+        margin-bottom: 30px;
+    }
+
+    #prescription .stethoscope .care-btn {
+        width: 50%;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    #prescription .stethoscope a {
+        width: 40%;
+        height: 60px;
+        font-size: 24px;
+    }
+    #how-it-works .works-box-wrap{
+        margin-bottom: 20px;
+    }
+    #how-it-works .learn-more{
+        margin-top: 0px;
+    }
+    #how-it-works{
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #we-guarantee .we-guarantee_title {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+
+    #primary-care .title {
+        font-size: 39px;
+    }
+
+    #prescription .pres-text {
+        font-size: 34px;
+        margin-bottom: 14px;
+    }
+
+    #prescription {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    header .top-header .topheader-wrap {
+        flex-direction: column;
+    }
+
+    #hero .hero-left .main-h {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    #hero .hero-left .title {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: 300;
+    }
+
+    #we-guarantee .we-guarantee_title {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+
+    #we-guarantee {
+        padding: 15px 0;
+    }
+
+    #we-guarantee .we-guarantee-left .overlay {
+        height: 365px;
+    }
+
+    #we-guarantee .we-guarantee-left .overlay img {
+        object-fit: cover;
+    }
+
+    #we-guarantee .we-left_text h5 {
+        font-size: 18px;
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+
+    #we-guarantee .we-left_text p {
+        font-size: 14px;
+    }
+
+    #we-guarantee .we-guarantee-right ul li {
+        font-size: 14px;
+    }
+
+    #we-guarantee .we-guarantee-right ul li:nth-child(3) {
+        line-height: 22px;
+        margin: 10px 0;
+    }
+
+    #we-guarantee .we-guarantee-right ul li:nth-child(4) {
+        line-height: 22px;
+        margin: 10px 0;
+    }
+
+    #we-guarantee .we-guarantee-right ul li:nth-child(6) {
+        line-height: 22px;
+        margin: 10px 0;
+    }
+
+    #we-guarantee .we-guarantee-right ul li:nth-child(8) {
+        line-height: 22px;
+        margin: 10px 0;
+    }
+
+    .guarantee-btn {
+        width: 100%;
+        height: 53px;
+        font-size: 18px;
+    }
+
+    #primary-care .title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    #prescription .stethoscope .care-btn {
+        width: 100%;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    #prescription .stethoscope a {
+        width: 100%;
+        height: 48px;
+        font-size: 18px;
+    }
+    #prescription .pres-text{
+        font-size: 26px;
+        line-height: 37px;
+    }
+    #prescription .stethoscope p{
+        font-size: 18px;
+    line-height: 20px;
+    }
+    #prescription{
+        padding: 20px 0 0 0;
+    }
+    #how-it-works .title{
+        font-size: 36px;
+    }
+    #how-it-works .sub-title{
+        line-height: 27px;
+    }
+    .clients .title{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .clients {
+        padding: 10px 0;
+    }
+    #contat-us .contact-frm_right h2{
+        font-size: 36px;
+    }
+
+  
+}
